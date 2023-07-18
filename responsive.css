@@ -67,6 +67,7 @@
   .funny-video-img-section {
     grid-template-columns: 1fr;
     margin-left: 30px;
+    gap: 70px;
   }
   .funny-video-img-section img {
     width: 90%;
