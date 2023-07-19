@@ -78,14 +78,19 @@
     text-align: center;
   }
   .our-story-section {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    padding-left: 60px;
+    padding-left: 60px; */
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+
   }
   .terms-condition-div {
     flex-direction: column;
     gap: 5px;
+    margin-bottom: 20px;
   }
   /* .footer-final-text p{
     text-align: center;
