@@ -234,9 +234,14 @@ nav {
 .terms-condition-div {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 20px;
   color: white;
   padding-top: 40px;
+}
+.terms-1, .terms-2{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 .terms-condition-div li {
   list-style: none;
