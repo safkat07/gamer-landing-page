@@ -356,7 +356,7 @@ nav {
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: normal;
 }
 .text-area .text-area-paragraph {
   color: #534c64;
@@ -364,5 +364,48 @@ nav {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: normal; /* 166.667% */
+}
+
+/* funny image overlay section  */
+.funny-main-img{
+  position: relative;
+}
+.funny-main-img img{
+display: block;
+margin: auto;
+}
+.content{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(, 0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  transition: 0.6s;
+}
+.content h3{
+  font-size: 20px;
+  color: pink;
+  margin-bottom: 10px;
+}
+
+.content > *{
+  transform: translateY(25px);
+  transition: transform 0.6s;
+}
+.content:hover > *{
+  transform: translateY(0px);
+}
+.content:hover{
+  opacity: 1;
+}
+.content img{
+width: 20%;
+height: 20%;
 }
