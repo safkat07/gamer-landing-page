@@ -93,11 +93,18 @@
   }
 
   /* game genre  */
-  .genre-1st {
+  .under-game-genre {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 2fr);
   }
-  .genre-2nd {
-    grid-template-columns: repeat(2, 2fr);
+  .under-game-genre div {
+   
+    margin:5px 5px;
+  }
+  .bg-color {
+    padding: 5px 5px;
+    font-size: 6px;
+  }
+  .under-game-genre img {
+    width: 40px;
   }
 }
