@@ -82,17 +82,22 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     padding-left: 60px; */
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 10px;
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
   }
   .terms-condition-div {
     flex-direction: column;
     gap: 5px;
     margin-bottom: 20px;
   }
-  /* .footer-final-text p{
-    text-align: center;
-  } */
+
+  /* game genre  */
+  .genre-1st {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 2fr);
+  }
+  .genre-2nd {
+    grid-template-columns: repeat(2, 2fr);
+  }
 }

@@ -238,7 +238,8 @@ nav {
   color: white;
   padding-top: 40px;
 }
-.terms-1, .terms-2{
+.terms-1,
+.terms-2 {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -257,4 +258,52 @@ nav {
   text-align: center;
   font-size: 10px;
   font-weight: 500;
+}
+
+/* /games genre section  */
+.game-genre {
+  padding-top: 100px;
+  max-width: 1200px;
+  min-height: 300px;
+  margin: 0 auto;
+  
+}
+.genre-1st {
+  display: grid;
+  /* display: flex; */
+ 
+  align-items: center;
+  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+}
+.genre-1st img,
+.genre-2nd img {
+  width: 40px;
+  padding-right: 5px;
+}
+.genre-2nd {
+  padding-top: 10px;
+  /* display: flex; */
+  display: grid;
+  align-items: center;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.bg-color {
+  padding: 5px 5px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(248, 247, 244);
+  border-radius: 50px;
+  border: none;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.bg-color:hover {
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #ff42a5;
 }
